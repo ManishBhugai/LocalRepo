@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body{
+    background-color: black;
+}
+ 
+.cover {
+    height: 100vh;
+    background-image: url(cover.jpg);
+    background-size: cover;
+
+}
+
+.cover::after{
+    position: absolute;
+
+content: "";
+top: 0px;
+background-color: rgba(0, 0, 0, 0.3);
+height: 100vh;
+width: 100%;
+}
+
+.box1 {
+    height: 100px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+
+align-items:center;
+margin-left: 40px;
+}
+
+.logo{
+    background-image: url(Logonetflix.png);
+    height: 40px;
+    width: 130px;
+    background-size: cover;
+    align-content:center;
+ color: red;   
+
+}
+
+.sin {
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    
+
+}
+.singin {
+    border: 2px solid black;
+    height: 639px;
+background-color: #000000b3;
+padding: 48px 68px 48px 68px;
+color: white;
+align-items: self-start;
+width: 314px;
+
+align-items: center;
+}
+
+
+.sign {
+    color: white;
+font-size: 32px;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+align-items: left;
+
+}
+.email {
+line-height: 1rem;
+    margin-top: 2rem;
+
+}
+.my {
+    height: 24px;
+    width: 100% ;
+ border: 2px solid gray;
+     border-radius: 0.3rem;
+     text-align: center;
+font-size: 1rem;
+padding-top: 1.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+padding-bottom: 0.5rem;
+line-height: 1.5;
+background-color: #000000b3;
+
+
+}
+.hello {
+    color: rgba(255, 255, 255, 0.7);
+    bottom: 2.3rem;
+    left: 1rem;
+    right: 1rem;
+    height: 24px;
+    width: 282px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: 400;
+}
+
+
+.pass{
+height: 24px;
+width: 100%;
+border: 2px solid gray;
+padding-top: 24px;
+padding-left: 16px;
+padding-right: 16px;
+padding-bottom: 8px;
+background-color: #000000b3;
+border-radius: 0.3rem;
+}
+#Pass {
+width: 100%;
+position: relative;
+background-color: #000000b3;
+height: 0px;
+border: #030303b3 ;
+ border-radius: 0.35rem;
+
+}
+.pw {
+    color: rgba(255, 255, 255, 0.7);
+    bottom: 1.5rem;
+    left: 0.2rem;
+    right: 1rem;
+    height: 24px;
+    width: 282px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: 400; 
+}
+ .final {
+height: 40px;
+width: 100%;
+padding-top: 16px;
+padding-right: 6px;
+padding-bottom: 16px;
+padding-left: 6px;
+background-color: none;
+position: relative;
+top: 4px;
+border-radius: 0.85rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.SI {
+    height: 40px;
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 20px;
+color: white;
+background-color: red;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+}
+.or p{
+    height: 21px;
+    font-size: 21px;
+}
+.opt {
+    height: 40px;
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 6px;
+    padding-bottom: 16px;
+    padding-left: 6px;
+    background-color: none;
+    position: relative;
+    top: 4px;
+    border-radius: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opt:before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+border: solid ;
+border-radius: calc(0.25rem - 0.0625rem);
+content: "";
+border-color: rgba(0, 0, 0, 0);
+height: 40px;
+background-color: none;
+color: wheat;
+background-color:  none;
+
+}
+  .opt button {
+    height: 40px;
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 20px;
+color: white;
+background-color: red;
+  }
+ .forget {
+    display: flex; 
+    width: 100%;
+    height: 21px;
+    justify-content: center;
+    background-color:none;
+    color: #ffffff;
+
+    margin: 9px;
+
+ }
+ .forget a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+
+ .anchor:active {
+    text-decoration: underline; 
+    text-decoration-line: initial;
+ }
+.last {
+    display: flex;
+}
+.lastt {
+    margin-right: 10px;
+}
+.phone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.phone a{
+color: white; 
+font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+}
+.mobile {
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+}
